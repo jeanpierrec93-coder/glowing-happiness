@@ -1,0 +1,48 @@
+
+#root {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  text-align: left;
+  margin-top: 2rem;
+}
+
+.form-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.result-card.buy {
+  border-color: #28a745;
+}
+
+.result-card.sell {
+  border-color: #dc3545;
+}
+
+.result-card.hold {
+  border-color: #6c757d;
+}
+
+.result-header {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.result-header.buy {
+  color: #28a745;
+}
+
+.result-header.sell {
+  color: #dc3545;
+}
+
+.result-header.hold {
+  color: #6c757d;
+}
