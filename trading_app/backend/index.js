@@ -115,6 +115,8 @@ app.get('*', (req, res) => {
 });
 
 // --- Server Activation ---
-app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+
+// Start the server and listen on 0.0.0.0 to accept connections from outside the container
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`Server is listening on port ${PORT}`);
 });
